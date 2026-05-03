@@ -133,7 +133,6 @@ const STATUS_USED = 1;
 const STATUS_CORRUPTED = 2;
 const STATUS_RECOVERED = 3;
 const STATUS_BAD = 4;
-
 const FILE_SIGNATURES = {
     "pdf": "25504446",
     "jpg": "FFD8FFE0",

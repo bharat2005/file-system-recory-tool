@@ -384,6 +384,10 @@ function OptimizerPanel({ lru, benchmarks, btreeKeys }) {
     );
 }
 
+
+
+
+
 function ChatWidget() {
     const [isOpen, setIsOpen] = useState(false);
     const [messages, setMessages] = useState([{ sender: 'ai', text: "Hello! I am your File System Assistant powered by Gemini. Ask me anything!" }]);
