@@ -6,15 +6,6 @@ import LogPanel from "./LogPanel";
 
 const { useState, useEffect, useRef } = React;
 
-const STATUS_COLORS = {
-    0: 'bg-free',
-    1: 'bg-used',
-    2: 'bg-corrupted',
-    3: 'bg-recovered',
-    4: 'bg-bad'
-};
-
-
 
 export default function AppRoot() {
     const [state, setState] = useState({
@@ -122,11 +113,6 @@ export default function AppRoot() {
                         <LogPanel logs={logs} />
                     </div>
 
-                    {/*<OptimizerPanel */}
-                    {/*    lru={state.lru_snapshot} */}
-                    {/*    benchmarks={state.benchmarks}*/}
-                    {/*    btreeKeys={state.btree_keys} */}
-                    {/*/>*/}
                 </main>
             </div>
 
